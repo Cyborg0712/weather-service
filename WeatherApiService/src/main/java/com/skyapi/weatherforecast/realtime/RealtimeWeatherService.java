@@ -6,6 +6,7 @@ import com.skyapi.weatherforecast.location.LocationNotFoundException;
 import com.skyapi.weatherforecast.location.LocationRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 
@@ -35,6 +36,7 @@ public class RealtimeWeatherService {
         return realtimeWeather;
     }
 
+    @Transactional
     public RealtimeWeather update(String locationCode, RealtimeWeather realtimeWeather) {
             Location location = locationRepository.findByCode(locationCode);
             if(location == null) {

@@ -41,6 +41,4 @@ public class LocationDTO{
     @JsonProperty("enabled")
     private boolean enabled;
 
-    @JsonProperty("trashed")
-    private boolean trashed;
 }
