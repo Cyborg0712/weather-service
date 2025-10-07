@@ -1,7 +1,0 @@
-com\skyapi\weatherforecast\HourlyWeatherRepositoryTests.class
-com\skyapi\weatherforecast\HourlyWeatherApiControllerTests.class
-com\skyapi\weatherforecast\IP2LocationTests.class
-com\skyapi\weatherforecast\realtime\RealtimeWeatherApiControllerTests.class
-com\skyapi\weatherforecast\realtime\RealtimeWeatherRepositoryTests.class
-com\skyapi\weatherforecast\location\LocationApiControllerTests.class
-com\skyapi\weatherforecast\location\LocationRepositoryTests.class
