@@ -34,7 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.WeatherForecastService.executor": "Debug",
+    "Application.WeatherForecastService.executor": "Run",
     "JUnit.HourlyWeatherApiControllerTests.executor": "Run",
     "JUnit.HourlyWeatherApiControllerTests.testGeByCodeShouldReturn200OK.executor": "Run",
     "JUnit.HourlyWeatherApiControllerTests.testGetByCodeShouldReturn204NoContent.executor": "Run",
@@ -148,10 +148,10 @@
   <component name="RunManager" selected="JUnit.HourlyWeatherApiControllerTests">
     <configuration name="WeatherForecastService" type="Application" factoryName="Application">
       <envs>
-        <env name="DB_HOST" value="turntable.proxy.rlwy.net" />
-        <env name="DB_NAME" value="railway" />
-        <env name="DB_PASSWORD" value="VEvMkEQXsCeTmoHstmtkUckwPhkMGkLo" />
-        <env name="DB_PORT" value="21937" />
+        <env name="DB_HOST" value="nozomi.proxy.rlwy.net" />
+        <env name="DB_NAME" value="weatherdb" />
+        <env name="DB_PASSWORD" value="abc@123" />
+        <env name="DB_PORT" value="10956" />
         <env name="DB_USER" value="root" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.WeatherApiServiceApplication" />

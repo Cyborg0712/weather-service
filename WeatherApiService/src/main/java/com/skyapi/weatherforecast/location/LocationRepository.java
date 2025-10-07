@@ -13,7 +13,7 @@ public interface LocationRepository extends CrudRepository<Location, String> {
     @Query("SELECT l FROM Location l WHERE l.trashed=false")
     List<Location> findUntrashed();
 
-    @Query("SELECT l FROM Location l WHERE l.locationCode=?1 AND l.trashed=false")
+    @Query("SELECT l FROM Location l LEFT JOIN FETCH l.realtimeWeather WHERE l.locationCode=?1 AND l.trashed=false")
     Location findByCode(String code);
 
     @Query("UPDATE Location l SET l.trashed=true WHERE l.locationCode = ?1")
