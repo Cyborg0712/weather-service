@@ -34,7 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.WeatherForecastService.executor": "Run",
+    "Application.WeatherForecastService.executor": "Debug",
     "JUnit.HourlyWeatherApiControllerTests.executor": "Run",
     "JUnit.HourlyWeatherApiControllerTests.testGeByCodeShouldReturn200OK.executor": "Run",
     "JUnit.HourlyWeatherApiControllerTests.testGetByCodeShouldReturn204NoContent.executor": "Run",
