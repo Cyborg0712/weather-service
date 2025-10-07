@@ -12,6 +12,7 @@ import java.util.Date;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class RealtimeWeatherService {
     private final RealTimeWeatherRepository realTimeWeatherRepository;
     private final LocationRepository locationRepository;
@@ -36,7 +37,7 @@ public class RealtimeWeatherService {
         return realtimeWeather;
     }
 
-    @Transactional
+
     public RealtimeWeather update(String locationCode, RealtimeWeather realtimeWeather) {
             Location location = locationRepository.findByCode(locationCode);
             if(location == null) {
