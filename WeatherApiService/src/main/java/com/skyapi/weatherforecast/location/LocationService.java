@@ -41,7 +41,7 @@ public class LocationService {
         locationInDB.setCityName(locationInRequest.getCityName());
         locationInDB.setRegionName(locationInRequest.getRegionName());
         locationInDB.setCountryCode(locationInRequest.getCountryCode());
-        locationInDB.setCountryName(locationInDB.getCountryName());
+        locationInDB.setCountryName(locationInRequest.getCountryName());
         locationInDB.setEnabled(locationInRequest.isEnabled());
 
         return locationRepository.save(locationInDB);
