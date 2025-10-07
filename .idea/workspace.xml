@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="764050a0-8660-42f6-8d5b-abcec6587726" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/WeatherApiService/src/main/java/com/skyapi/weatherforecast/location/LocationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApiService/src/main/java/com/skyapi/weatherforecast/location/LocationDTO.java" afterDir="false" />
-    </list>
+    <list default="true" id="764050a0-8660-42f6-8d5b-abcec6587726" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.WeatherForecastService.executor": "Run",
+    "Application.WeatherForecastService.executor": "Debug",
     "JUnit.HourlyWeatherApiControllerTests.executor": "Run",
     "JUnit.HourlyWeatherApiControllerTests.testGeByCodeShouldReturn200OK.executor": "Run",
     "JUnit.HourlyWeatherApiControllerTests.testGetByCodeShouldReturn204NoContent.executor": "Run",
@@ -149,6 +147,13 @@
   </component>
   <component name="RunManager" selected="JUnit.HourlyWeatherApiControllerTests">
     <configuration name="WeatherForecastService" type="Application" factoryName="Application">
+      <envs>
+        <env name="DB_HOST" value="turntable.proxy.rlwy.net" />
+        <env name="DB_NAME" value="railway" />
+        <env name="DB_PASSWORD" value="VEvMkEQXsCeTmoHstmtkUckwPhkMGkLo" />
+        <env name="DB_PORT" value="21937" />
+        <env name="DB_USER" value="root" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.WeatherApiServiceApplication" />
       <module name="WeatherApiService" />
       <method v="2">
@@ -262,5 +267,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WeatherApiService/src/main/java/com/skyapi/weatherforecast/realtime/RealtimeWeatherService.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
