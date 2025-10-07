@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="764050a0-8660-42f6-8d5b-abcec6587726" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Exception" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="33S3azlCW8GqcEMYEAocZyOrPDb" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.WeatherForecastService.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testGeByCodeShouldReturn200OK.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testGetByCodeShouldReturn204NoContent.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testGetByCodeShouldReturn400BadRequest.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testGetByCodeShouldReturn404NotFound.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testGetByIpShouldReturn200OK.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testGetByIpShouldReturn204NoContent.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testGetIPShouldReturn400BadRequestBecauseNoHeaderXCurrentHour.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testUpdateShouldReturn200OK.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testUpdateShouldReturn400BadRequestBecauseInvalidData.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testUpdateShouldReturn400BadRequestBecauseNoData.executor": "Run",
+    "JUnit.HourlyWeatherApiControllerTests.testUpdateShouldReturn404NotFound.executor": "Run",
+    "JUnit.HourlyWeatherRepositoryTests.testAdd.executor": "Run",
+    "JUnit.HourlyWeatherRepositoryTests.testDelete.executor": "Run",
+    "JUnit.HourlyWeatherRepositoryTests.testFindByLocationCodeFound.executor": "Run",
+    "JUnit.HourlyWeatherRepositoryTests.testFindByLocationCodeNotFound.executor": "Run",
+    "JUnit.IP2LocationTests.testInvalidIP.executor": "Run",
+    "JUnit.IP2LocationTests.testValidIP1.executor": "Run",
+    "JUnit.LocationApiControllerTests.executor": "Run",
+    "JUnit.LocationApiControllerTests.testAddShouldReturn201Created.executor": "Run",
+    "JUnit.LocationApiControllerTests.testAddShouldReturn400BadRequest.executor": "Run",
+    "JUnit.LocationApiControllerTests.testDeleteShouldReturn204NoContent.executor": "Run",
+    "JUnit.LocationApiControllerTests.testDeleteShouldReturn404NotFound.executor": "Run",
+    "JUnit.LocationApiControllerTests.testGetShouldReturn200OK.executor": "Run",
+    "JUnit.LocationApiControllerTests.testGetShouldReturn404NotFound.executor": "Run",
+    "JUnit.LocationApiControllerTests.testGetShouldReturn405MethodNotAllowed.executor": "Run",
+    "JUnit.LocationApiControllerTests.testListShouldReturn200OK.executor": "Run",
+    "JUnit.LocationApiControllerTests.testListShouldReturn204NoContent.executor": "Run",
+    "JUnit.LocationApiControllerTests.testUpdateShouldReturn200OK.executor": "Run",
+    "JUnit.LocationApiControllerTests.testUpdateShouldReturn400BadRequest.executor": "Run",
+    "JUnit.LocationApiControllerTests.testUpdateShouldReturn404NotFound.executor": "Run",
+    "JUnit.LocationApiControllerTests.testValidateRequestBodyLocationCode.executor": "Run",
+    "JUnit.LocationApiControllerTests.testValidateRequestBodyLocationCodeLength.executor": "Run",
+    "JUnit.LocationApiControllerTests.testValidateRequestBodyLocationCodeNotNull.executor": "Run",
+    "JUnit.LocationApiControllerTests.testValidateRequestsBodyAllFieldsInvalid.executor": "Run",
+    "JUnit.LocationRepositoryTests.testAddHourlyWeatherData.executor": "Run",
+    "JUnit.LocationRepositoryTests.testAddRealTimeWeatherData.executor": "Run",
+    "JUnit.LocationRepositoryTests.testAddSuccess.executor": "Run",
+    "JUnit.LocationRepositoryTests.testFindByCountryAndCityNotFound.executor": "Run",
+    "JUnit.LocationRepositoryTests.testFindByCountryCodeAndCiyNameFound.executor": "Run",
+    "JUnit.LocationRepositoryTests.testGetFound.executor": "Run",
+    "JUnit.LocationRepositoryTests.testGetNotFound.executor": "Run",
+    "JUnit.LocationRepositoryTests.testListSuccess.executor": "Run",
+    "JUnit.LocationRepositoryTests.testTrashSuccess.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.tesGetShouldReturnStatus404NotFound.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testGetByLocationCodeShouldReturnStatus200OK.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testGetByLocationCodeShouldReturnStatus404NotFound.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testGetShouldReturnStatus200OK.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testGetShouldReturnStatus400BadRequest.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testGetShouldReturnStatus404NotFound.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testUpdateShouldReturn200OK.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testUpdateShouldReturn400BadRequest.executor": "Run",
+    "JUnit.RealtimeWeatherApiControllerTests.testUpdateShouldReturn404NotFound.executor": "Run",
+    "JUnit.RealtimeWeatherRepositoryTests.testFindByLocationCodeNotFound.executor": "Run",
+    "JUnit.RealtimeWeatherRepositoryTests.testFindByLocationFound.executor": "Run",
+    "JUnit.RealtimeWeatherRepositoryTests.testFindByTrashedLocationNotFound.executor": "Run",
+    "JUnit.RealtimeWeatherRepositoryTests.testGetFindCountryCodeAndCityFound.executor": "Run",
+    "JUnit.RealtimeWeatherRepositoryTests.testGetFindCountryCodeAndCityNotFound.executor": "Run",
+    "JUnit.RealtimeWeatherRepositoryTests.testUpdate.executor": "Run",
+    "Maven.WeatherApiProject [clean].executor": "Run",
+    "Maven.WeatherApiProject [compile].executor": "Run",
+    "Maven.WeatherApiProject [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "<unknown>",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/projects/DeployDemoWithMySQL/WeatherApiProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\WeatherApiProject\WeatherApiService\src\main\resources" />
+      <recent name="D:\projects\WeatherApiProject\WeatherApiService\target" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\WeatherApiProject" />
+      <recent name="D:\projects\WeatherApiProject\WeatherApiService\src\main\resources" />
+      <recent name="D:\projects\WeatherApiProject\WeatherApiService\ip2locationdb" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.skyapi.weatherforecast.realtime" />
+      <recent name="com.skyapi.weatherforecast.location" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="Application">
+          <value>
+            <map>
+              <entry key="WeatherForecastService" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HourlyWeatherApiControllerTests">
+    <configuration name="WeatherForecastService" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.WeatherApiServiceApplication" />
+      <module name="WeatherApiService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HourlyWeatherApiControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherApiService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skyapi.weatherforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skyapi.weatherforecast" />
+      <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.HourlyWeatherApiControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationApiControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherApiService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skyapi.weatherforecast.location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skyapi.weatherforecast.location" />
+      <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.location.LocationApiControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealtimeWeatherApiControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherApiService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skyapi.weatherforecast.realtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skyapi.weatherforecast.realtime" />
+      <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.realtime.RealtimeWeatherApiControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealtimeWeatherApiControllerTests.testGetShouldReturnStatus404NotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherApiService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skyapi.weatherforecast.realtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skyapi.weatherforecast.realtime" />
+      <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.realtime.RealtimeWeatherApiControllerTests" />
+      <option name="METHOD_NAME" value="testGetShouldReturnStatus404NotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealtimeWeatherApiControllerTests.testUpdateShouldReturn404NotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherApiService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skyapi.weatherforecast.realtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skyapi.weatherforecast.realtime" />
+      <option name="MAIN_CLASS_NAME" value="com.skyapi.weatherforecast.realtime.RealtimeWeatherApiControllerTests" />
+      <option name="METHOD_NAME" value="testUpdateShouldReturn404NotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HourlyWeatherApiControllerTests" />
+        <item itemvalue="JUnit.RealtimeWeatherApiControllerTests" />
+        <item itemvalue="JUnit.RealtimeWeatherApiControllerTests.testGetShouldReturnStatus404NotFound" />
+        <item itemvalue="JUnit.RealtimeWeatherApiControllerTests.testUpdateShouldReturn404NotFound" />
+        <item itemvalue="JUnit.LocationApiControllerTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="764050a0-8660-42f6-8d5b-abcec6587726" name="Changes" comment="" />
+      <created>1759296714970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759296714970</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
