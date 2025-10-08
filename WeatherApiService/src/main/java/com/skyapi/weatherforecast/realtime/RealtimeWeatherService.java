@@ -37,16 +37,12 @@ public class RealtimeWeatherService {
         return realtimeWeather;
     }
 
-    public Location get(String code)  {
-        Location location = locationRepository.findByCode(code);
-        if(location == null) {
-            throw new  LocationNotFoundException(code);
-        }
-        return location;
-    }
-
     public RealtimeWeather update(String locationCode, RealtimeWeather realtimeWeather) {
-            Location location = get(locationCode);
+             Location location = locationRepository.findByCode(locationCode.trim());
+            if(location == null) {
+                throw new LocationNotFoundException(locationCode);
+            }
+
             RealtimeWeather existingRealtimeWeather = location.getRealtimeWeather();
             if(existingRealtimeWeather == null) {
                 realtimeWeather.setLocation(location);

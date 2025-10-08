@@ -41,9 +41,9 @@ public class RealtimeWeatherApiController {
         return ResponseEntity.ok(entity2DTO(realtimeWeather));
     }
 
-    @PutMapping("/{locationCode}")
+    @PutMapping("/{code}")
     public ResponseEntity<?> updateRealTimeWeatherByLocationCode(
-            @PathVariable(name = "locationCode") String locationCode,
+            @PathVariable(name = "code") String locationCode,
             @RequestBody @Valid RealtimeWeather realtimeWeatherRequest
     )
     {
