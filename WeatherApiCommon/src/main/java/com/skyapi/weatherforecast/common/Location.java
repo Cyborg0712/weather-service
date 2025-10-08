@@ -33,7 +33,7 @@ public class Location {
 
     private boolean trashed;
 
-    @OneToOne(mappedBy = "location", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToOne(mappedBy = "location", cascade = CascadeType.ALL)
     @PrimaryKeyJoinColumn
     private RealtimeWeather realtimeWeather;
 
