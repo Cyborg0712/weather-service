@@ -68,7 +68,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         error.addError(e.getMessage());
         error.setPath(request.getServletPath());
 
-        log.error(e.getMessage(), e);
+        log.error(e.getMessage());
 
         return error;
     }
